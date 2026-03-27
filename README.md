@@ -23,14 +23,6 @@ Enterprise Remote Desktop Manager for Windows.
 2. Keep `EnterpriseRDP.exe` and `_internal/` in the same folder.
 3. Double-click `EnterpriseRDP.exe`.
 
-## Build EXE with icon
-
-If you have the source and virtual environment:
-
-1. Open `E:\DEV-PYTHON\RDP`
-2. Run `build_exe_with_icon.bat`
-3. Output path will be shown in terminal after build
-
 ## CSV format for Import
 
 Required headers:
@@ -41,7 +33,7 @@ Example:
 
 ```csv
 name,ip,port,username,password
-server-1,192.168.170.11,3389,administrator,MyPassword123
+server-1,192.168.170.11,3389,username,password
 ```
 
 ## Release notes
