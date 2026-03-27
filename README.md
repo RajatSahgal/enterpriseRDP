@@ -33,7 +33,7 @@ Example:
 
 ```csv
 name,ip,port,username,password
-server-1,192.168.170.11,3389,username,password
+server-1,192.168.1.11,3389,username,password
 ```
 
 ## Release notes
